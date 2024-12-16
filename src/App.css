@@ -1,0 +1,137 @@
+/* src/App.css */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+   background-color: #0a101d;
+
+  }
+  
+  .App.dark {
+    background-color: #0a101d;
+    color: #ffffff;
+  }
+  
+  .App.light {
+    background-color: #ffffff;
+    color: #0a101d;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 1.5rem;
+    align-items: center;
+    margin-left: 350px;
+    
+
+  }
+  
+  .theme-toggle {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .search-bar {
+    display: flex;
+    margin-top: 6rem;
+   width: 5000px;
+    max-width: 5000px;
+    
+  }
+  
+  .search-bar input {
+   
+    border-radius: 8px 4 7 27px;
+    border: none;
+    outline: none;
+    width: 100%;
+    color: #949fbd;
+    background-color: #141c2f;
+    padding-right: 60px;
+    
+
+    
+  }
+  
+  .search-bar button {
+    padding: 0.5rem;
+    border-radius: 0 8px 8px 0;
+    background-color: #0079ff;
+    border: none;
+    color: rgb(47, 13, 100);
+    cursor: pointer;
+    
+  }
+  
+  .profile-card {
+    background-color: #1f2a48;
+    padding: 2rem;
+    border-radius: 8px;
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+    margin-left: 400px;
+  }
+  
+  .profile-card.light {
+    background-color: #f6f8ff;
+    color: #141c2f;
+  }
+  
+  .profile-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .avatar {
+    border-radius: 50%;
+    width: 80px;
+  }
+  
+  .profile-info {
+    text-align: left;
+  }
+  
+  .bio {
+    margin: 1rem 0;
+    color: #a0a0a0;
+  }
+  
+  .user-stats {
+    display: flex;
+    justify-content: space-around;
+    background-color: #141c2f;
+    padding: 1rem;
+    border-radius: 8px;
+    margin: 1rem 0;
+  }
+  
+  .user-stats.light {
+    background-color: #e4e6eb;
+  }
+  
+  .user-stats div {
+    text-align: center;
+  }
+  
+  .user-stats h4 {
+    font-weight: normal;
+    margin-bottom: 0.5rem;
+  }
+  
+  .user-details {
+    display: flex;
+    flex-direction: row;
+    gap: 3.5rem;
+    align-items: flex-start;
+    margin-left: 0px;
+    
+  }
+  
+  
